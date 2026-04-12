@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+      {% if site.description %}
+        <p>{{ site.description }}</p>
+      {% endif %}
+    </div>
+  </div>
+
+  {{ content }}
+
+  <div id="footer">
+    <div class="container">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    </div>
+  </div>
+</body>
+</html>

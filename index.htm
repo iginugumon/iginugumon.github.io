@@ -1,29 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ site.title }}</title>
-  <style>
-    body {
-      background-color: #0d1117;
-      color: #c9d1d9;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-      margin: 0;
-      padding: 2rem;
-      display: flex;
-      justify-content: center;
-    }
-    main {
-      max-width: 800px;
-      width: 100%;
-    }
-    /* Your other styles here */
-  </style>
-</head>
-<body>
-  <main>
-    {{ content }}
-  </main>
-</body>
-</html>
+---
+layout: default
+---
+
+{% for post in site.posts limit:15 %}
+  <article class="micro-post">
+    <small style="color: #8b949e;">{{ post.date | date: "%B %d, %Y" }}</small>
+    <div class="post-body" style="margin-top: 10px;">
+      {{ post.content }}
+    </div>
+  </article>
+{% endfor %}

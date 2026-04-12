@@ -2,3 +2,6 @@ title: Iginugumon
 description: "A personal anonymous blog."
 theme: jekyll-theme-slate
 paginate: 10
+paginate_path: "/page/:num/"
+plugins:
+  - jekyll-paginate

@@ -1,54 +1,29 @@
----
-layout: default
----
-
-<style>
-  /* GitHub Dark Mode Colors */
-  body {
-    background-color: #0d1117 !important;
-    color: #c9d1d9 !important;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji" !important;
-    line-height: 1.5;
-  }
-
-  a { color: #58a6ff !important; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-
-  .micro-post {
-    border-bottom: 1px solid #30363d;
-    padding: 24px 0;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-
-  .post-date {
-    color: #8b949e;
-    font-size: 0.85rem;
-    display: block;
-    margin-bottom: 8px;
-  }
-
-  .content {
-    font-size: 1rem;
-    color: #e6edf3;
-  }
-
-  /* Make sure images and code blocks look right in dark mode */
-  code {
-    background-color: rgba(110, 118, 129, 0.4);
-    border-radius: 6px;
-    padding: 0.2em 0.4em;
-    font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
-  }
-</style>
-
-<div class="feed">
-  {% for post in site.posts limit:15 %}
-    <article class="micro-post">
-      <time class="post-date">{{ post.date | date: "%B %d, %Y" }}</time>
-      <div class="content">
-        {{ post.content }}
-      </div>
-    </article>
-  {% endfor %}
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      display: flex;
+      justify-content: center;
+    }
+    main {
+      max-width: 800px;
+      width: 100%;
+    }
+    /* Your other styles here */
+  </style>
+</head>
+<body>
+  <main>
+    {{ content }}
+  </main>
+</body>
+</html>

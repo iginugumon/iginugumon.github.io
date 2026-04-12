@@ -1,0 +1,9 @@
+{% for post in site.posts limit:10 %}
+  <article class="micro-post">
+    <small>{{ post.date | date: "%B %d, %Y @ %H:%M" }}</small>
+    <div class="content">
+      {{ post.content }}
+    </div>
+    <hr>
+  </article>
+{% endfor %}

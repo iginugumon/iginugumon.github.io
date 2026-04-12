@@ -8,6 +8,7 @@ Day Created: Thursday
 ---
 # Leadership is Personal
 
+
 Two of my juniors have sent me messages, letting me know that they will be leaving my former company. I have been resigned for a while now because we have migrated to another country. I didn't feel like they needed my permission. But I appreciate the gesture. It kinda feels like they look up to me as a leader.
 
 Contrary to probably how they feel about our section head. Which is something that I had to ponder through in order for me to fully grasp the reason why. Was it because of the leadership style? Most of our juniors were very young. And R was very strict when it comes to compliance and delivery. Maybe too strict for the young 'uns who were fresh off college. They might be looking for something more gentler and nurturing. He's not all that.
@@ -26,6 +27,4 @@ And then there's CDC. She has been such a great boss. She has helped me get bett
 
 So, what am I trying to say? What I'm really getting into is one size does not fit all. One leadership style might be a good fit for someone but at the same time it can also not be beneficial to someone else. 
 
-But here's my take on leadership: I think, at the very least, leaders should be accountable to their people. They also need to be accountable for their people. 
-
-
+But here's my take on leadership: I think, at the very least, leaders should be accountable to their people. They also need to be accountable for their people.

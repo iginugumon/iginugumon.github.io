@@ -10,11 +10,11 @@ Day Created: Wednesday
 
 My "office spouse" was confiding about what happened the night before. She said that she and her boyfriend almost broke up.
 
-![[sayang.jpg]]
+![sayang](/assets/images/sayang.jpg)
 
-I was thrilled. But, FML, I was also too nice that I had pointed out the fact that it was the fault of the other girl.
+I was thrilled. But, FML, I was also too nice that I had pointed out the fact that it was the fault of the other girl.
 
-![[fml.jpg]]
+![fml](/assets/images/fml.jpg)
 
 \*sigh\*
 

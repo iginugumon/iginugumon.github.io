@@ -21,6 +21,6 @@ I figured the only reason why I'm so pissed about it is because it felt like I'm
 
 P.S.
 
-I have received an email from my Team Leader:
-![[good riddance.jpg]]
+I have received an email from my Team Leader:
+![good riddance](/assets/images/good riddance.jpg)
 Good riddance.

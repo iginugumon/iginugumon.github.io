@@ -2,11 +2,13 @@
 layout: default
 ---
 
-{% for post in site.posts limit:15 %}
-  <article class="micro-post">
-    <small style="color: #8b949e;">{{ post.date | date: "%B %d, %Y" }}</small>
-    <div class="post-body" style="margin-top: 10px;">
-      {{ post.content }}
-    </div>
-  </article>
-{% endfor %}
+<div class="feed">
+  {% for post in site.posts %}
+    <article class="micro-post">
+      <time class="post-date">{{ post.date | date: "%B %d, %Y @ %H:%M" }}</time>
+      <div class="post-content">
+        {{ post.content }}
+      </div>
+    </article>
+  {% endfor %}
+</div>

@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<div class="feed">
+<div id="main_content">
   {% for post in site.posts %}
-    <article class="micro-post">
-      <time class="post-date">{{ post.date | date: "%B %d, %Y @ %H:%M" }}</time>
-      <div class="post-content">
+    <article style="margin-bottom: 40px; border-bottom: 1px solid #3e4751; padding-bottom: 20px;">
+      <small style="color: #999;">{{ post.date | date: "%B %d, %Y" }}</small>
+      <div style="margin-top: 10px;">
         {{ post.content }}
       </div>
     </article>

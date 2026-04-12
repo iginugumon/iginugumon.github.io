@@ -1,0 +1,5 @@
+title: Iginugumon
+description: "A personal anonymous blog."
+theme: minima # A clean, default theme built into GitHub
+paginate: 10
+remote_theme: jekyll/minima

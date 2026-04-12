@@ -15,9 +15,15 @@ A personal anonymous blog built with **Jekyll**, hosted on GitHub Pages. The sit
 ```
 iginugumon/
 ├── _config.yml          # Jekyll configuration
-├── index.htm            # Custom homepage layout (lists all posts)
+├── index.html           # Homepage with paginated posts
+├── _layouts/
+│   └── default.html     # Base HTML layout
 ├── _posts/              # Blog posts in Jekyll's required naming format
-│   └── 2026-04-12-hello-world.md
+│   └── *.md
+├── _staging/            # Staging directory (if used)
+├── assets/
+│   ├── css/             # Custom stylesheets
+│   └── images/          # Image assets
 ├── _site/               # Generated output (gitignored)
 ├── .gitignore
 └── README.md
@@ -27,9 +33,12 @@ iginugumon/
 
 | File | Description |
 |---|---|
-| `_config.yml` | Jekyll config: sets title, description, theme, and pagination |
-| `index.htm` | Custom homepage template — iterates over `site.posts` and renders each with date and content |
+| `_config.yml` | Jekyll config: sets title, description, theme, and pagination (`paginate: 10`, `paginate_path: "/page/:num/"`, `jekyll-paginate` plugin) |
+| `index.html` | Custom homepage template — iterates over `paginator.posts` (10 per page) with pagination navigation |
+| `_layouts/default.html` | Base layout with header, content area, and footer |
 | `_posts/` | Directory for blog posts. Files must follow the `YYYY-MM-DD-slug.md` naming convention |
+| `assets/css/` | Custom CSS stylesheets |
+| `assets/images/` | Image assets used in posts |
 
 ## Building & Running
 
@@ -65,5 +74,6 @@ Your content here.
 ## Conventions
 
 - Posts use the `post` layout and are written in Markdown
-- The homepage (`index.htm`) uses a custom layout without a sidebar — just a clean list of posts with dates
-- No custom CSS is defined; styling comes entirely from the `jekyll-theme-slate` theme
+- The homepage (`index.html`) displays 10 posts per page with pagination navigation (Previous/Next and page numbers)
+- Styling uses `jekyll-theme-slate` theme with possible custom CSS in `assets/css/`
+- Images are stored in `assets/images/`

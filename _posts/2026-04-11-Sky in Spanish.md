@@ -7,6 +7,10 @@ tags:
 Date Created: 2026-04-11
 Day Created: Saturday
 ---
+
+# Sky in Spanish
+
+
 Pasensya ka na. Sumobra na ata ako. 
 
 Unang kita ko sa iyo hindi naman kita gusto. Maganda ka. Pero hanggang doon lang. 
@@ -17,4 +21,4 @@ Lilipas din naman ito.
 
 Kung dati ito, malamang hihintayin ko na lang humupa. Pero this is one of the moments we feel alive.
 
-Kaya sasabihin ko na lang habang andito pa kasi baka bukas o sa makalawa wala na at kaibigan na ulit tingin ko sa yo. Pero sa ngayon, gustong-gusto kita. 
+Kaya sasabihin ko na lang habang andito pa kasi baka bukas o sa makalawa wala na at kaibigan na ulit tingin ko sa yo. Pero sa ngayon, gustong-gusto kita.

@@ -2,5 +2,3 @@ title: Iginugumon
 description: "A personal anonymous blog."
 theme: jekyll-theme-slate
 paginate: 10
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one

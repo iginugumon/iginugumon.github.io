@@ -1,9 +1,12 @@
+---
+layout: home
+---
+
 {% for post in site.posts limit:10 %}
-  <article class="micro-post">
-    <small>{{ post.date | date: "%B %d, %Y @ %H:%M" }}</small>
-    <div class="content">
+  <article class="micro-post" style="margin-bottom: 40px; border-bottom: 1px solid #eee;">
+    <small><i>{{ post.date | date: "%B %d, %Y @ %H:%M" }}</i></small>
+    <div class="content" style="margin-top: 10px;">
       {{ post.content }}
     </div>
-    <hr>
   </article>
 {% endfor %}

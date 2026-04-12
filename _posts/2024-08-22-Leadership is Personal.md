@@ -28,22 +28,3 @@ So, what am I trying to say? What I'm really getting into is one size does not f
 But here's my take on leadership: I think, at the very least, leaders should be accountable to their people. They also need to be accountable for their people. 
 
 
-## 📝 Notes History
-
-### Notes created on this day
-
-```dataview
-List FROM "" WHERE dateformat(date-created, "MMdd") = "0822" SORT file.ctime asc
-```
-
-### Notes created today
-
-```dataview
-List FROM "" WHERE file.cday = date("2024-08-22") SORT file.ctime asc
-```
-
-### Notes last touched today
-
-```dataview
-List FROM "" WHERE file.mday = date("2024-08-22") SORT file.mtime asc
-```
